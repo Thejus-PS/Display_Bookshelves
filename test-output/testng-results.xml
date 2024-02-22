@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T17:06:36 IST" name="Suite" finished-at="2024-02-22T17:08:54 IST" duration-ms="137542">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_001_search_bookshelves.search_Bookshelves()[pri:1, instance:testCases.TC_001_search_bookshelves@77888435]" name="search_Bookshelves" class="testCases.TC_001_search_bookshelves"/>
+        <method signature="TC_001_search_bookshelves.applying_filters()[pri:2, instance:testCases.TC_001_search_bookshelves@77888435]" name="applying_filters" class="testCases.TC_001_search_bookshelves"/>
+        <method signature="TC_002_Living_Submenu.retrieve_submenu()[pri:3, instance:testCases.TC_002_Living_Submenu@1bb5a082]" name="retrieve_submenu" class="testCases.TC_002_Living_Submenu"/>
+        <method signature="TC_003_Giftcards.gift_card_selection()[pri:4, instance:testCases.TC_003_Giftcards@78691363]" name="gift_card_selection" class="testCases.TC_003_Giftcards"/>
+        <method signature="TC_003_Giftcards.set_amount_and_date()[pri:5, instance:testCases.TC_003_Giftcards@78691363]" name="set_amount_and_date" class="testCases.TC_003_Giftcards"/>
+        <method signature="TC_003_Giftcards.invalid_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC_003_Giftcards@78691363]" name="invalid_details" class="testCases.TC_003_Giftcards"/>
+        <method signature="TC_003_Giftcards.valid_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:testCases.TC_003_Giftcards@78691363]" name="valid_details" class="testCases.TC_003_Giftcards"/>
+        <method signature="TC_003_Giftcards.confirm_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:testCases.TC_003_Giftcards@78691363]" name="confirm_details" class="testCases.TC_003_Giftcards"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-22T17:06:36 IST" name="Test" finished-at="2024-02-22T17:08:54 IST" duration-ms="137542">
+      <class name="testCases.TC_001_search_bookshelves">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_search_bookshelves@77888435]" started-at="2024-02-22T17:06:37 IST" name="setup" finished-at="2024-02-22T17:06:55 IST" duration-ms="17608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search_Bookshelves()[pri:1, instance:testCases.TC_001_search_bookshelves@77888435]" started-at="2024-02-22T17:06:55 IST" name="search_Bookshelves" finished-at="2024-02-22T17:07:00 IST" duration-ms="4431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Bookshelves -->
+        <test-method signature="applying_filters()[pri:2, instance:testCases.TC_001_search_bookshelves@77888435]" started-at="2024-02-22T17:07:00 IST" name="applying_filters" finished-at="2024-02-22T17:07:30 IST" duration-ms="29773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applying_filters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_search_bookshelves@77888435]" started-at="2024-02-22T17:07:31 IST" name="tearDown" finished-at="2024-02-22T17:07:32 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_search_bookshelves -->
+      <class name="testCases.TC_002_Living_Submenu">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Living_Submenu@1bb5a082]" started-at="2024-02-22T17:07:32 IST" name="setup" finished-at="2024-02-22T17:07:45 IST" duration-ms="13180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="retrieve_submenu()[pri:3, instance:testCases.TC_002_Living_Submenu@1bb5a082]" started-at="2024-02-22T17:07:45 IST" name="retrieve_submenu" finished-at="2024-02-22T17:07:52 IST" duration-ms="6464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieve_submenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Living_Submenu@1bb5a082]" started-at="2024-02-22T17:07:52 IST" name="tearDown" finished-at="2024-02-22T17:07:54 IST" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Living_Submenu -->
+      <class name="testCases.TC_003_Giftcards">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Giftcards@78691363]" started-at="2024-02-22T17:07:54 IST" name="setup" finished-at="2024-02-22T17:08:06 IST" duration-ms="12330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="gift_card_selection()[pri:4, instance:testCases.TC_003_Giftcards@78691363]" started-at="2024-02-22T17:08:06 IST" name="gift_card_selection" finished-at="2024-02-22T17:08:18 IST" duration-ms="12010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gift_card_selection -->
+        <test-method signature="set_amount_and_date()[pri:5, instance:testCases.TC_003_Giftcards@78691363]" started-at="2024-02-22T17:08:19 IST" name="set_amount_and_date" finished-at="2024-02-22T17:08:23 IST" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_amount_and_date -->
+        <test-method signature="invalid_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCases.TC_003_Giftcards@78691363]" started-at="2024-02-22T17:08:28 IST" name="invalid_details" data-provider="dp" finished-at="2024-02-22T17:08:38 IST" duration-ms="10327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob#gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8765544321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alexa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[alexa@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9480123499]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#123 california]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[560045]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[With love from Thejus]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[bob@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_details -->
+        <test-method signature="valid_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:testCases.TC_003_Giftcards@78691363]" started-at="2024-02-22T17:08:40 IST" name="valid_details" data-provider="dp" finished-at="2024-02-22T17:08:47 IST" duration-ms="6911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob#gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8765544321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alexa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[alexa@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9480123499]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#123 california]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[560045]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[With love from Thejus]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[bob@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_details -->
+        <test-method signature="confirm_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:testCases.TC_003_Giftcards@78691363]" started-at="2024-02-22T17:08:47 IST" name="confirm_details" data-provider="dp" finished-at="2024-02-22T17:08:51 IST" duration-ms="3903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob#gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8765544321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[alexa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[alexa@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9480123499]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[#123 california]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[560045]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[With love from Thejus]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[bob@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm_details -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_Giftcards@78691363]" started-at="2024-02-22T17:08:52 IST" name="tearDown" finished-at="2024-02-22T17:08:54 IST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_Giftcards -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
